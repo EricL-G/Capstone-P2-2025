@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            background-color: white; 
+            border-radius: 10%;
+        }
+        body{
+            font-family: Papyrus;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .list {
+            background-color: lightblue;
+            padding-top: 3%; 
+            padding-bottom: 3%;
+            border-radius: 5%; 
+            margin-left: 10px; 
+            margin-right: 10px; 
+            
+        }
+    </style>
 </head>
 <body style="background-color: lightskyblue">
-    <h1 style="font-family: Papyrus"> Senior Bucket List</h1>
-    <h2 style="font-family: Papyrus"> This is what we're going to do</h2>
+    <h1 style="font-family: Papyrus" class="underline"> Senior Bucket List</h1>
+    <h2 style="font-family: Papyrus" class="underline"> This is what we're going to do</h2>
     <form action="">
-    <ol style="font-family: Papyrus ;background-color: lightblue">
+    <ol style="font-family: Papyrus;" class="list">
         <li> Pass <strong><em>ALL</em></strong>  my final </li>
         <ul>
             <li>AP Calculus AB</li>
@@ -28,10 +51,12 @@
         <!-- comment -->
          <!---->
     </ol>
-
-     <input type="checkbox" name="License" value="Get License">Get License<br>
-        <input type="checkbox" name="Show" value="Show">Watch Stranger Things?<br>
-        <input type="checkbox" name="Food" value="Food">Give Us Food!!<br>
+    <h2 class="underline">To-do list</h2>
+    <div class="list">
+     <input type="checkbox" name="License" value="Get License" class="list">Get License<br>
+        <input type="checkbox" name="Show" value="Show"class="list">Watch Stranger Things?<br>
+        <input type="checkbox" name="Food" value="Food" class="list">Give Us Food!!<br>
+        </div>
         <p>Support Trump?</p>
          <label for="option 1">Yes</label>
         <input id="option 1" type="radio" name="vote" value="yes" required>
@@ -41,7 +66,7 @@
         <input type="submit" value="press submit"> 
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: green"> Click me</a>
         <br>
-        <img src="rick-astley.png" width="400">
+        <img src="rick-roll-rick-ashley.gif" width="400">
 </form>
 </body>
 </html>
