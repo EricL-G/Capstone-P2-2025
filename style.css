@@ -2,16 +2,16 @@
             background-color: white; 
             border-radius: 10%;
         }
-        body{
+body{
             font-family: Papyrus;
             background-color: lightskyblue; 
         }
 
-        .underline {
+.underline {
             text-decoration: underline;
         }
 
-        .list {
+.list {
             background-color: lightblue;
             padding-top: 3%; 
             padding-bottom: 3%;
@@ -20,3 +20,12 @@
             margin-right: 10px; 
             
         }
+img {
+    border-radius: 25%; 
+    display: block;
+    margin: auto;  
+}
+
+span {
+    text-decoration: underline; 
+}
